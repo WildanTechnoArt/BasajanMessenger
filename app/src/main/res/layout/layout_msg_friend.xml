@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_toLeftOf="@+id/center"
+        android:gravity="left"
+        tools:ignore="RtlHardcoded">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/friendPhoto"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/msg_date"
+            android:src="@drawable/circle_profil"
+            app:civ_border_color="@color/colorPrimary"
+            app:civ_border_width="2dp" />
+
+        <com.github.library.bubbleview.BubbleTextView
+            android:id="@+id/msg_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_toEndOf="@+id/friendPhoto"
+            android:layout_toRightOf="@+id/friendPhoto"
+            android:elevation="6dp"
+            android:padding="10dp"
+            android:text="Pesan"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            app:angle="8dp"
+            app:arrowCenter="true"
+            app:arrowHeight="10dp"
+            app:arrowLocation="left"
+            app:arrowPosition="14dp"
+            app:arrowWidth="8dp"
+            app:bubbleColor="@color/background_material_dark_2"
+            tools:ignore="HardcodedText"
+            tools:targetApi="lollipop" />
+
+        <TextView
+            android:id="@+id/msg_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/msg_text"
+            android:layout_alignStart="@+id/msg_text"
+            android:layout_below="@+id/msg_text"
+            android:gravity="left"
+            android:paddingLeft="9dp"
+            android:paddingStart="9dp"
+            android:text="08:57:20"
+            android:textSize="12sp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+        <View
+            android:id="@+id/space"
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:layout_below="@+id/msg_date" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/center"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="75dp"
+        android:layout_marginRight="75dp" />
+
+</RelativeLayout>

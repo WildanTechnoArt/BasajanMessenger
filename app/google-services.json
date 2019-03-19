@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "763882927885",
+    "firebase_url": "https://basajan-messenger.firebaseio.com",
+    "project_id": "basajan-messenger",
+    "storage_bucket": "basajan-messenger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763882927885:android:78b4fbbdb354fd59",
+        "android_client_info": {
+          "package_name": "com.wildan.basajanmessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763882927885-d7knir5s68eajir5pkmqupj6nela75al.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wildan.basajanmessenger",
+            "certificate_hash": "6c221c09dc4b0f3f29ca069c7167860385aed544"
+          }
+        },
+        {
+          "client_id": "763882927885-3m33pqt7jjl1gif5rnrg7r2mb6g8v03h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM7HwTnnnEP1umt3aPeWJi_HcKVGBwb0A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763882927885-3m33pqt7jjl1gif5rnrg7r2mb6g8v03h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

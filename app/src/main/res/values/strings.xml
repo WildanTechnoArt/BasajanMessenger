@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Basajan Messenger</string>
+    <string name="Welcome">Selamat Datang di Basajan Messenger</string>
+    <string name="masukan_nama">Masukan Nama</string>
+    <string name="nomor_telepon">Nomor Telepon</string>
+    <string name="no_id">+62</string>
+    <string name="lanjutkan">Lanjutkan</string>
+    <string name="masukan_6_digit_kode">Masukan 6-Digit Kode</string>
+    <string name="versifikasi">Verifikasi</string>
+    <string name="notify1">Aplikasi Akan Mengirim SMS Berupa Kode Verifikasi pada Nomor dibawah ini:</string>
+    <string name="kirim_ulang_kode_vertifikasi">Kirim Ulang Kode Verifikasi</string>
+    <string name="opsi_lainnya">Opsi Lainnya</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="teman">Teman</string>
+    <string name="pesan">Pesan</string>
+    <string name="_62">+62</string>
+    <string name="no_telpon">no_telpon</string>
+    <string name="hapus">Hapus</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">Basajan Messenger</string>
+    <string name="tab_text_1">Teman</string>
+    <string name="tab_text_2">Pesan</string>
+    <string name="tambahkan">Simpan</string>
+    <string name="sunting_identitas">Edit Nama</string>
+    <string name="saved_message">Data Tersimpan</string>
+    <string name="todo">TODO</string>
+    <string name="kirim">Kirim</string>
+    <string name="src_nama">Nama</string>
+    <string name="src_nomor">No. Telepon</string>
+    <string name="bottomMenu1">Obrolan</string>
+    <string name="bottomMenu2">Kontak</string>
+    <string name="bottomMenu3">Profil</string>
+    <string name="noKontak">Anda belum memiliki kontak dengan teman</string>
+    <string name="tombolPojok">Untuk menambahkan teman dan memulai obrolan, silakan tekan tombol di pojok kanan bawah</string>
+    <string name="statusonline">StatusOnline</string>
+</resources>
